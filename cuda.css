@@ -1,0 +1,17 @@
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    background-color: #87509c;
+}
+
+.header__logo {
+
+}
+
+.header__menu {
+    display: flex;
+}
