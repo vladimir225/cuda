@@ -1,3 +1,9 @@
+li {
+    list-style-type: none;
+}
+
+
+
 .container {
     width: 1440px;
     margin: auto;
@@ -6,12 +12,31 @@
 .header {
     display: flex;
     background-color: #87509c;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    color: white;
 }
 
 .header__logo {
 
 }
 
-.header__menu {
+.header__main-menu {
     display: flex;
+    width: 416px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.main-menu__item {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+.main-menu__item:hover {
+    background-color: #643a79;
+    cursor: pointer;
 }
