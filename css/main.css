@@ -1,5 +1,9 @@
 @import "./normalize.min.css";
 
+html {
+  min-width: 320px;
+}
+
 li {
   list-style-type: none;
 }
@@ -181,6 +185,36 @@ li {
 
 .person__profession {
   color: #48c1e9;
+}
+
+@media (max-width: 1366px) {
+  .header {
+    padding: 70px 100px;
+  }
+
+  .section-welcome {
+    padding: 0px 150px 128px 150px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding: 70px 80px;
+  }
+
+  .section-welcome {
+    padding: 0px 100px 128px 100px;
+  }
+
+  .section-welcome__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 539px) {
 }
 
 /* @media (max-width: 1199px) {
