@@ -141,19 +141,20 @@ li {
 .section-team__about {
   font-size: 22px;
   text-align: center;
-  width: 810px;
   margin: 10px auto 80px auto;
 }
 
 .person-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .person-container__person {
   text-align: center;
   width: 200px;
   margin: 0px;
+  margin: 10px;
   line-height: 1.6em;
 }
 
@@ -198,6 +199,10 @@ li {
   .section-services {
     padding: 120px 80px;
   }
+
+  .section-team {
+    padding: 120px 80px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -230,6 +235,18 @@ li {
   .section-services__cooperation {
     font-size: 18px;
   }
+
+  .section-team {
+    padding: 120px 50px;
+  }
+
+  .section-team__title {
+    font-size: 36px;
+  }
+
+  .section-team__about {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 539px) {
@@ -238,6 +255,14 @@ li {
   }
 
   .section-services__cooperation {
+    font-size: 16px;
+  }
+
+  .section-team__title {
+    font-size: 18px;
+  }
+
+  .section-team__about {
     font-size: 16px;
   }
 }
