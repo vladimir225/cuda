@@ -20,6 +20,7 @@ li {
   padding: 70px 210px;
   justify-content: space-between;
   color: white;
+  align-items: center;
 }
 
 .header__logo {
@@ -29,6 +30,10 @@ li {
 .header__main-menu {
   display: flex;
   margin: 0px;
+}
+
+.header__burger-nav {
+  display: none;
 }
 
 .main-menu__item {
@@ -246,6 +251,14 @@ li {
 
   .section-team__about {
     font-size: 18px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__burger-nav {
+    display: block;
   }
 }
 

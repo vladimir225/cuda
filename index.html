@@ -4,13 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/burger.css" type="text/css" />
         <link rel="stylesheet" href="css/main.css" type="text/css" />
         <title>Document</title>
     </head>
     <body>
         <header class="header">
             <img class="header__logo" src="./img/logo@1X.png" />
-            <nav>
+            <nav class="header__nav">
                 <ul class="header__main-menu menu">
                     <li class="main-menu__item">HOME</li>
                     <li class="main-menu__item">ABOUT</li>
@@ -18,6 +19,23 @@
                     <li class="main-menu__item">BLOG</li>
                     <li class="main-menu__item">CONTACT</li>
                 </ul>
+            </nav>
+            <nav role="navigation" class="header__burger-nav">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li class="main-menu__item">HOME</li>
+                        <li class="main-menu__item">ABOUT</li>
+                        <li class="main-menu__item">WORK</li>
+                        <li class="main-menu__item">BLOG</li>
+                        <li class="main-menu__item">CONTACT</li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <section class="section-welcome">
@@ -237,5 +255,7 @@
                 </div>
             </div>
         </section>
+
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
