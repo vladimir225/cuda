@@ -75,8 +75,7 @@ li {
   border-bottom: 3px solid #c86a40;
   background-color: #eb7d4b;
   border-radius: 5px;
-  width: 300px;
-  height: 70px;
+  padding: 25px 80px;
   color: white;
 }
 
@@ -163,9 +162,9 @@ li {
   line-height: 1.6em;
 }
 
-.photo__caption {
+/* .photo__caption {
   margin-top: 40px;
-}
+} */
 
 .person__photo {
   width: 200px;
@@ -242,7 +241,7 @@ li {
   }
 
   .section-team {
-    padding: 120px 50px;
+    padding: 60px 50px;
   }
 
   .section-team__title {
@@ -260,9 +259,18 @@ li {
   .header__burger-nav {
     display: block;
   }
+
+  .big-button {
+    padding: 12.5px 40px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 539px) {
+  .section-services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .section-services__title {
     font-size: 18px;
   }
@@ -277,6 +285,31 @@ li {
 
   .section-team__about {
     font-size: 16px;
+  }
+
+  .person-container__person {
+    margin-bottom: 50px;
+  }
+
+  .header {
+    padding: 30px;
+  }
+
+  .header__logo {
+    width: 75px;
+    height: 23px;
+    margin-top: -7px;
+  }
+
+  .section-welcome {
+    padding: 0 15px 60px 15px;
+  }
+
+  .section-welcome__title {
+    font-size: 20px;
+  }
+
+  .section-welcome__big-button {
   }
 }
 
