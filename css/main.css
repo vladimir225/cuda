@@ -81,10 +81,7 @@ li {
 
 .section-services {
   background-color: #17c2a4;
-  padding-top: 120px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 130px;
+  padding: 120px 200px;
 }
 
 .section-services__title {
@@ -98,21 +95,23 @@ li {
   color: white;
   font-size: 22px;
   text-align: center;
-  width: 810px;
   margin: 10px auto 80px auto;
 }
 
 .image-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: white;
   line-height: 1.6em;
+  flex-wrap: wrap;
 }
 
 .image-container__item {
   width: 200px;
   text-align: center;
   margin: 0px;
+  margin-bottom: 15px;
+  padding: 0 15px;
 }
 
 /* .caption__title {
@@ -195,6 +194,10 @@ li {
   .section-welcome {
     padding: 0px 150px 128px 150px;
   }
+
+  .section-services {
+    padding: 120px 80px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -209,12 +212,34 @@ li {
   .section-welcome__title {
     font-size: 30px;
   }
+
+  /* .section-services {
+    padding: 120px 100px;
+  } */
 }
 
 @media (max-width: 767px) {
+  .section-services {
+    padding: 120px 50px;
+  }
+
+  .section-services__title {
+    font-size: 36px;
+  }
+
+  .section-services__cooperation {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 539px) {
+  .section-services__title {
+    font-size: 18px;
+  }
+
+  .section-services__cooperation {
+    font-size: 16px;
+  }
 }
 
 /* @media (max-width: 1199px) {
