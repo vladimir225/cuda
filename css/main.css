@@ -183,6 +183,26 @@ li {
   color: #48c1e9;
 }
 
+.section-skill {
+  color: #3c4761;
+}
+
+.section-skill__title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-skill__text {
+  font-size: 22px;
+  text-align: center;
+  width: 810px;
+  margin: 10px auto 80px auto;
+}
+
+.section-skill__skil-container {
+}
+
 /* @media (max-width: 1199px) {
   .container {
     width: 900px;
