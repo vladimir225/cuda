@@ -281,6 +281,64 @@ li {
   font-weight: bold;
 }
 
+.section-reviews {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d74680;
+  color: white;
+  padding: 120px 50px;
+}
+
+.section-reviews__title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.section-reviews__text {
+  text-align: center;
+  font-size: 22px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-reviews__reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reviews-container__review {
+  display: flex;
+  margin: 75px 50px;
+}
+
+.text-container__text {
+  max-width: 370px;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.44;
+}
+
+.text-container__name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text-container__profession {
+  color: #ffdd99;
+  font-size: 18px;
+}
+
+.review__img {
+  margin-right: 48px;
+  padding-top: 10px;
+}
+
+.review__text-container {
+}
+
 @media (max-width: 1366px) {
   .header {
     padding: 70px 100px;
