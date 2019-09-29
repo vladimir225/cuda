@@ -219,6 +219,52 @@ li {
   text-align: center;
 }
 
+.section-portfolio {
+  padding: 120px 100px;
+  background-color: #ffdd99;
+  color: #393939;
+}
+
+.section-portfolio__title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.section-portfolio__text {
+  text-align: center;
+  font-size: 22px;
+  padding: 0px 480px;
+}
+
+.section-portfolio-button-container {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.button-container__button {
+  background-color: #ebc985;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 12px 24px;
+  margin: 0 5px;
+}
+
+.button-container__button:first-child {
+  background-color: white;
+}
+
+.section-portfolio__laptop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.laptop__caption {
+  font-size: 18px;
+  text-align: center;
+}
+
 @media (max-width: 1366px) {
   .header {
     padding: 70px 100px;
