@@ -287,7 +287,7 @@ li {
   flex-direction: column;
   background-color: #d74680;
   color: white;
-  padding: 120px 50px;
+  padding: 120px 10px;
 }
 
 .section-reviews__title {
@@ -396,6 +396,10 @@ li {
     height: 135px;
   }
 
+  .section-reviews {
+    padding: 60px 10px;
+  }
+
   /* .section-services {
     padding: 120px 100px;
   } */
@@ -403,7 +407,7 @@ li {
 
 @media (max-width: 767px) {
   .section-services {
-    padding: 120px 50px;
+    padding: 60px 50px;
   }
 
   .section-services__title {
@@ -454,6 +458,38 @@ li {
   .section-portfolio__button {
     padding: 15px 25px;
     font-size: 16px;
+  }
+
+  .section-reviews {
+    padding: 60px 10px;
+  }
+
+  .section-reviews__title {
+    font-size: 36px;
+  }
+
+  .section-reviews__text {
+    font-size: 18px;
+  }
+
+  .reviews-container__review {
+    margin: 50px;
+  }
+
+  .text-container__text {
+    font-size: 18px;
+  }
+
+  .text-container__name {
+    font-size: 22px;
+  }
+
+  .text-container__profession {
+    font-size: 18px;
+  }
+
+  .review__img img {
+    width: 80px;
   }
 }
 
@@ -535,5 +571,49 @@ li {
   .section-portfolio__button {
     padding: 13px 10px;
     font-size: 14px;
+  }
+
+  .section-reviews {
+    padding: 60px 20px;
+  }
+
+  .section-reviews__title {
+    font-size: 18px;
+  }
+
+  .section-reviews__text {
+    font-size: 16px;
+  }
+
+  .reviews-container__review {
+    margin: 25px;
+  }
+
+  .text-container__text {
+    font-size: 16px;
+  }
+
+  .text-container__name {
+    font-size: 18px;
+  }
+
+  .text-container__profession {
+    font-size: 16px;
+  }
+
+  .review__img {
+    margin-right: 10px;
+  }
+
+  .review__img img {
+    width: 60px;
+  }
+
+  .reviews-container__review {
+    margin-right: 0px;
+  }
+
+  .review__img {
+    padding-top: 20px;
   }
 }
