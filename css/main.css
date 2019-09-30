@@ -359,6 +359,7 @@ li {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 15px;
 }
 
 .section-form__form {
@@ -367,7 +368,10 @@ li {
   flex-direction: column;
 }
 
-.section-form__info {
+.form__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .info__name {
@@ -432,6 +436,10 @@ li {
     max-width: 355px;
     max-height: 205px;
   }
+
+  .section-form {
+    padding: 120px 5px;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -470,6 +478,22 @@ li {
 
   .section-reviews {
     padding: 60px 10px;
+  }
+
+  .section-form__text {
+    max-width: 650px;
+  }
+
+  .info__name {
+    width: 275px;
+  }
+
+  .info__email {
+    width: 275px;
+  }
+
+  .form__massage {
+    width: 635px;
   }
 
   /* .section-services {
@@ -562,6 +586,36 @@ li {
 
   .review__img img {
     width: 80px;
+  }
+
+  .info__name {
+    width: 435px;
+  }
+
+  .info__email {
+    width: 435px;
+  }
+
+  .form__massage {
+    width: 435px;
+  }
+
+  .section-form__title {
+    font-size: 36px;
+  }
+
+  .section-form__text {
+    font-size: 18px;
+  }
+
+  .form__button {
+    padding: 15px 25px;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+
+  .section-form {
+    padding: 60px 5px;
   }
 }
 
@@ -687,5 +741,39 @@ li {
 
   .review__img {
     padding-top: 20px;
+  }
+
+  .section-form__title {
+    font-size: 18px;
+  }
+
+  .section-form__text {
+    font-size: 16px;
+    padding: 0 50px;
+  }
+
+  .info__name {
+    width: 220px;
+    font-size: 16px;
+    margin: 8px 15px;
+  }
+
+  .info__email {
+    width: 220px;
+    font-size: 16px;
+    margin: 8px 15px;
+  }
+
+  .form__massage {
+    width: 220px;
+    font-size: 16px;
+    height: 80px;
+    margin: 8px 15px;
+  }
+
+  .form__button {
+    font-size: 14px;
+    padding: 13px 10px;
+    margin-top: 20px;
   }
 }
