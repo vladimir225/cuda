@@ -1,8 +1,8 @@
 @import "./normalize.min.css";
 
-html {
+/* html {
   min-width: 320px;
-}
+} */
 
 li {
   list-style-type: none;
@@ -403,6 +403,7 @@ li {
   border-radius: 4px;
   width: 915px;
   height: 200px;
+  resize: none;
 }
 
 .form__button {
@@ -444,7 +445,7 @@ li {
 
 @media (max-width: 1023px) {
   .header {
-    padding: 70px 80px;
+    padding: 70px 70px;
   }
 
   .section-welcome {
@@ -503,7 +504,7 @@ li {
 
 @media (max-width: 767px) {
   .section-services {
-    padding: 60px 50px;
+    padding: 60px 35px;
   }
 
   .section-services__title {
@@ -515,7 +516,7 @@ li {
   }
 
   .section-team {
-    padding: 60px 50px;
+    padding: 60px 35px;
   }
 
   .section-team__title {
@@ -537,6 +538,10 @@ li {
   .big-button {
     padding: 12.5px 40px;
     font-size: 16px;
+  }
+
+  .section-skill {
+    padding: 60px 5px;
   }
 
   .section-skill__title {
@@ -663,6 +668,7 @@ li {
   }
 
   .section-welcome__big-button {
+    padding: 12px 25px;
   }
 
   .section-skill__title {
@@ -674,7 +680,7 @@ li {
   }
 
   .section-portfolio {
-    padding: 60px 50px;
+    padding: 60px 25px;
   }
 
   .section-portfolio__title {
@@ -749,23 +755,23 @@ li {
 
   .section-form__text {
     font-size: 16px;
-    padding: 0 50px;
+    padding: 0 10px;
   }
 
   .info__name {
-    width: 220px;
+    width: 215px;
     font-size: 16px;
     margin: 8px 15px;
   }
 
   .info__email {
-    width: 220px;
+    width: 215px;
     font-size: 16px;
     margin: 8px 15px;
   }
 
   .form__massage {
-    width: 220px;
+    width: 215px;
     font-size: 16px;
     height: 80px;
     margin: 8px 15px;
