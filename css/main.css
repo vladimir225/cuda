@@ -401,12 +401,15 @@ li {
   height: 200px;
 }
 
-/* .form__button {
+.form__button {
+  border: none;
+  border-bottom: 4px solid #299ec5;
   border-radius: 4px;
   background-color: #30bae7;
   padding: 28px 85px;
   margin-top: 70px;
-} */
+  font-weight: 600;
+}
 
 @media (max-width: 1366px) {
   .header {
