@@ -416,6 +416,28 @@ li {
   font-weight: 600;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #344b8e;
+  padding: 45px 210px;
+  color: white;
+  font-size: 24px;
+}
+
+.footer__footer-menu {
+  display: flex;
+}
+
+.footer-menu__item {
+  margin: 0 30px;
+}
+
+.footer-menu__item:hover {
+  color: #30bae7;
+  cursor: pointer;
+}
+
 @media (max-width: 1366px) {
   .header {
     padding: 70px 100px;
@@ -718,7 +740,7 @@ li {
   }
 
   .reviews-container__review {
-    margin: 25px;
+    margin: 25px 0px;
   }
 
   .text-container__text {
@@ -739,10 +761,6 @@ li {
 
   .review__img img {
     width: 60px;
-  }
-
-  .reviews-container__review {
-    margin-right: 0px;
   }
 
   .review__img {
