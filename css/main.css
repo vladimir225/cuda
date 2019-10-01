@@ -140,10 +140,7 @@ li {
 
 .section-team {
   background-color: #e7f1f8;
-  padding-top: 120px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 130px;
+  padding: 120px 200px 130px 200px;
   color: #3c4761;
 }
 
@@ -566,7 +563,7 @@ li {
   } */
 
   .section-skill {
-    padding: 60px 50px;
+    padding: 60px 70px;
   }
 
   .laptop-container__laptop {
@@ -621,7 +618,7 @@ li {
   }
 
   .section-team {
-    padding: 60px 35px;
+    padding: 60px 50px;
   }
 
   .section-team__title {
