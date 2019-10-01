@@ -450,6 +450,10 @@ li {
   width: 415px;
 }
 
+::-webkit-input-placeholder {
+  color: white;
+}
+
 .info__email {
   background-color: #273a71;
   margin: 15px;
