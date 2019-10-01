@@ -98,6 +98,15 @@ li {
   text-align: center;
 }
 
+.section-services__title::after {
+  display: block;
+  content: "";
+  background-color: #14a58c;
+  width: 87px;
+  height: 4px;
+  margin: 25px auto 0 auto;
+}
+
 .section-services__cooperation {
   color: white;
   font-size: 22px;
@@ -143,6 +152,15 @@ li {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+}
+
+.section-team__title::after {
+  display: block;
+  content: "";
+  background-color: #c8d9e5;
+  width: 87px;
+  height: 4px;
+  margin: 25px auto 0 auto;
 }
 
 .section-team__about {
@@ -210,6 +228,15 @@ li {
   text-align: center;
 }
 
+.section-skill__title::after {
+  display: block;
+  content: "";
+  background-color: #dfe8ed;
+  width: 87px;
+  height: 4px;
+  margin: 25px auto 0 auto;
+}
+
 .section-skill__text {
   font-size: 22px;
   text-align: center;
@@ -240,12 +267,22 @@ li {
   font-size: 40px;
 }
 
+.section-portfolio__title::after {
+  display: block;
+  content: "";
+  background-color: #e5c37f;
+  width: 87px;
+  height: 4px;
+  margin: 25px auto 0 auto;
+}
+
 .section-portfolio__text {
   text-align: center;
   font-size: 22px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 }
 
 .section-portfolio-button-container {
@@ -311,12 +348,20 @@ li {
   font-size: 40px;
 }
 
+.section-reviews__title::after {
+  display: block;
+  content: "";
+  background-color: #b73c6d;
+  width: 87px;
+  height: 4px;
+  margin: 25px auto 0 auto;
+}
+
 .section-reviews__text {
   text-align: center;
   font-size: 22px;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
 }
 
 .section-reviews__reviews-container {
@@ -369,12 +414,20 @@ li {
   font-size: 40px;
 }
 
+.section-form__title::after {
+  display: block;
+  content: "";
+  background-color: #273a71;
+  width: 87px;
+  height: 4px;
+  margin: 25px auto 0 auto;
+}
+
 .section-form__text {
   text-align: center;
   font-size: 22px;
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
   padding: 0 15px;
 }
 
