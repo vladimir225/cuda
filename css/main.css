@@ -367,6 +367,18 @@ li {
   justify-content: center;
 }
 
+.burger-nav__menu-item {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  padding: 10px 17px;
+  font-size: 16px;
+}
+
+.burger-nav__menu-item:hover {
+  background-color: #643a79;
+  cursor: pointer;
+}
+
 .reviews-container__review {
   display: flex;
   margin: 75px 50px;
