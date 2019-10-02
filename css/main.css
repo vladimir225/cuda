@@ -13,24 +13,27 @@ li {
 .container {
   width: 1440px;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: url("https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900&display=swap");
 }
 
 .header {
   display: flex;
   background-color: #87509c;
-  padding: 70px 210px;
-  justify-content: space-between;
+  padding: 57px 150px;
+  justify-content: center;
   color: white;
   align-items: center;
+  font-size: 16px;
 }
 
 .header__logo {
   height: 40px;
+  margin-right: 483px;
 }
 
 .header__main-menu {
   display: flex;
+  padding: 0px;
   margin: 0px;
 }
 
@@ -39,9 +42,8 @@ li {
 }
 
 .main-menu__item {
-  padding: 5px 10px 5px 10px;
   border-radius: 5px;
-  padding: 10px 17px;
+  padding: 7px 14.5px;
   font-size: 16px;
 }
 
@@ -54,15 +56,16 @@ li {
   display: flex;
   flex-direction: column;
   background-color: #87509c;
-  padding: 0px 267px 128px 267px;
+  padding: 90px 200px 145px 200px;
 }
 
 .section-welcome__title {
-  margin-bottom: 50px;
+  margin-bottom: 54px;
   font-size: 42.5px;
   color: white;
   text-align: center;
   font-weight: bold;
+  line-height: 1.15;
 }
 
 .section-welcome__big-button {
@@ -70,14 +73,14 @@ li {
 }
 
 .big-button {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17.5px;
+  font-weight: 600;
   box-sizing: border-box;
   border: none;
   border-bottom: 3px solid #c86a40;
   background-color: #eb7d4b;
   border-radius: 5px;
-  padding: 25px 80px;
+  padding: 24.5px 74.5px;
   color: white;
 }
 
@@ -525,10 +528,15 @@ li {
 @media (max-width: 1366px) {
   .header {
     padding: 70px 100px;
+    justify-content: space-between;
   }
 
   .section-welcome {
     padding: 0px 150px 128px 150px;
+  }
+
+  .header__logo {
+    margin-right: 0px;
   }
 
   .section-services {
@@ -537,6 +545,26 @@ li {
 
   .section-team {
     padding: 120px 80px;
+  }
+
+  .section-skill {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section-reviews {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .section-form {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .laptop__img {
@@ -578,6 +606,30 @@ li {
     padding: 60px 70px;
   }
 
+  .section-reviews {
+    padding: 60px 10px;
+  }
+
+  .section-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section-services {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section-team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .section-form {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .laptop-container__laptop {
     width: 250px;
   }
@@ -585,10 +637,6 @@ li {
   .laptop__img {
     width: 235px;
     height: 135px;
-  }
-
-  .section-reviews {
-    padding: 60px 10px;
   }
 
   .section-form__text {
@@ -617,6 +665,10 @@ li {
 }
 
 @media (max-width: 767px) {
+  .form__info {
+    width: 100%;
+  }
+
   .section-services {
     padding: 60px 35px;
   }
@@ -630,7 +682,7 @@ li {
   }
 
   .section-team {
-    padding: 60px 50px;
+    padding: 60px 42px;
   }
 
   .section-team__title {
@@ -660,6 +712,11 @@ li {
 
   .section-skill__title {
     font-size: 36px;
+  }
+
+  .section-portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .section-portfolio__title {
@@ -708,15 +765,15 @@ li {
   }
 
   .info__name {
-    width: 435px;
+    width: 70%;
   }
 
   .info__email {
-    width: 435px;
+    width: 70%;
   }
 
   .form__massage {
-    width: 435px;
+    width: 70%;
   }
 
   .section-form__title {
@@ -744,11 +801,6 @@ li {
 }
 
 @media (max-width: 539px) {
-  .section-services {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
   .section-services__title {
     font-size: 18px;
   }
@@ -789,6 +841,7 @@ li {
 
   .section-welcome__big-button {
     padding: 12px 25px;
+    font-weight: 400;
   }
 
   .section-skill__title {
@@ -800,7 +853,7 @@ li {
   }
 
   .section-portfolio {
-    padding: 60px 25px;
+    padding: 40px 25px;
   }
 
   .section-portfolio__title {
@@ -814,6 +867,7 @@ li {
   .button-container__button {
     margin: 5px;
     font-size: 15px;
+    min-width: 100px;
   }
 
   .laptop-container__laptop {
@@ -823,10 +877,31 @@ li {
   .section-portfolio__button {
     padding: 13px 10px;
     font-size: 14px;
+    font-weight: 400;
   }
 
   .section-reviews {
-    padding: 60px 20px;
+    padding: 40px 20px;
+  }
+
+  .section-skill {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .section-services {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .section-team {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .section-form {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
   .section-reviews__title {
@@ -875,19 +950,19 @@ li {
   }
 
   .info__name {
-    width: 215px;
+    width: 70%;
     font-size: 16px;
     margin: 8px 15px;
   }
 
   .info__email {
-    width: 215px;
+    width: 70%;
     font-size: 16px;
     margin: 8px 15px;
   }
 
   .form__massage {
-    width: 215px;
+    width: 70%;
     font-size: 16px;
     height: 80px;
     margin: 8px 15px;
@@ -897,10 +972,11 @@ li {
     font-size: 14px;
     padding: 13px 10px;
     margin-top: 20px;
+    font-weight: 400;
   }
 
   .footer {
-    padding: 30px 0;
+    padding: 5px 0;
   }
 
   .footer__footer-menu {
@@ -910,7 +986,7 @@ li {
   }
 
   .footer-menu__item {
-    margin: 0 12px;
+    margin: 0 20px;
     line-height: 30px;
   }
 }
