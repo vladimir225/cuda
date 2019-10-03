@@ -360,7 +360,7 @@ li {
   flex-direction: column;
   background-color: #d74680;
   color: white;
-  padding: 120px 10px;
+  padding: 120px 70px;
 }
 
 .section-reviews__title {
@@ -586,6 +586,7 @@ li {
   .section-reviews {
     padding-top: 120px;
     padding-bottom: 120px;
+    padding: 120px 70px;
   }
 
   .section-form {
