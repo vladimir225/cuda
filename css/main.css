@@ -4,6 +4,16 @@
   color: white;
 }
 
+.skill-container__circle {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+}
+
 .scroll-hide {
   margin: 0;
   height: 100%;
@@ -103,6 +113,7 @@ li {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .section-services__title::after {
@@ -116,9 +127,9 @@ li {
 
 .section-services__cooperation {
   color: white;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
-  margin: 10px auto 80px auto;
+  margin: 0px auto 70px auto;
 }
 
 .image-container {
@@ -156,6 +167,7 @@ li {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .section-team__title::after {
@@ -168,9 +180,9 @@ li {
 }
 
 .section-team__about {
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
-  margin: 10px auto 80px auto;
+  margin: 0px auto 80px auto;
 }
 
 .person-container {
@@ -215,6 +227,7 @@ li {
 .person__social-container {
   display: flex;
   justify-content: center;
+  margin-top: auto;
 }
 
 .person__profession {
@@ -230,6 +243,7 @@ li {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .section-skill__title::after {
@@ -242,9 +256,9 @@ li {
 }
 
 .section-skill__text {
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
-  margin: 10px auto 80px auto;
+  margin: 0px auto 80px auto;
   max-width: 800px;
 }
 
@@ -269,6 +283,7 @@ li {
 .section-portfolio__title {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .section-portfolio__title::after {
@@ -282,11 +297,12 @@ li {
 
 .section-portfolio__text {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 42px;
 }
 
 .section-portfolio-button-container {
@@ -350,6 +366,7 @@ li {
 .section-reviews__title {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .section-reviews__title::after {
@@ -363,9 +380,9 @@ li {
 
 .section-reviews__text {
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
   max-width: 800px;
-  margin: 10px auto;
+  margin: 0px auto 10px auto;
 }
 
 .section-reviews__reviews-container {
@@ -388,7 +405,7 @@ li {
 
 .reviews-container__review {
   display: flex;
-  margin: 75px 50px;
+  margin: 75px 25px;
 }
 
 .text-container__text {
@@ -425,6 +442,7 @@ li {
 .section-form__title {
   text-align: center;
   font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .section-form__title::after {
@@ -440,7 +458,7 @@ li {
   text-align: center;
   font-size: 22px;
   max-width: 800px;
-  margin: 10px auto;
+  margin: 0px auto 10px auto;
   padding: 0 15px;
 }
 
@@ -530,6 +548,10 @@ li {
 }
 
 @media (max-width: 1366px) {
+  .skill-container__circle {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   .header {
     padding: 70px 100px;
     justify-content: space-between;
@@ -583,11 +605,57 @@ li {
   .footer {
     font-size: 20px;
   }
+
+  .person-container__person {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .section-team {
+    padding: 120px 230px;
+  }
+}
+
+@media (max-width: 1036px) {
+  .section-team {
+    padding: 120px 100px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .image-container__item {
+    margin: 0 40px 15px 20px;
+  }
+  .image-container__item {
+    margin-left: 33.5px;
+    margin-right: 33.5px;
+  }
+
+  .section-services__image-container {
+    padding: 0 17px;
+  }
+
+  .section-skill__skill-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .skill-container__circle {
+    margin-left: 36px;
+    margin-right: 36px;
+  }
 }
 
 @media (max-width: 1023px) {
   .header {
     padding: 70px 70px;
+  }
+
+  .reviews-container__review {
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
 
   .section-welcome {
@@ -627,6 +695,7 @@ li {
   .section-team {
     padding-top: 60px;
     padding-bottom: 60px;
+    padding: 60px 85px;
   }
 
   .section-form {
@@ -668,9 +737,31 @@ li {
   }
 }
 
+@media (max-width: 850px) {
+  .image-container__item {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .laptop-container__laptop {
+    margin-left: 36px;
+    margin-right: 36px;
+    width: 355px;
+  }
+
+  .laptop__img {
+    width: 355px;
+    height: 205px;
+  }
+}
+
 @media (max-width: 767px) {
   .form__info {
     width: 100%;
+  }
+
+  .section-services__image-container {
+    padding: 0px;
   }
 
   .section-services {
@@ -993,5 +1084,29 @@ li {
   .footer-menu__item {
     margin: 0 20px;
     line-height: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .laptop-container__laptop {
+    width: 235px;
+  }
+  .laptop__img {
+    width: 235px;
+    height: 135px;
+  }
+
+  .image-container__item {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .person-container__person {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .skill-container__circle {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
